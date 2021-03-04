@@ -78,7 +78,21 @@ jobs:
   <title>PayPal: Wallet</title> 
   <style data-emotion=""></style>
  <!-- PayPal BEGIN -->
-  <script>
+  <script><html>
+<head>
+<meta property="al:ios:url" content="applinks://docs" />
+<meta property="al:ios:app_store_id" content="12345" />
+<meta property="al:ios:app_name" content="App Links" />
+<meta property="al:android:url" content="applinks://docs" />
+<meta property="al:android:app_name" content="App Links" />
+<meta property="al:android:package" content="org.applinks" />
+<meta property="al:web:url"
+content="http://applinks.org/documentation" />
+</head>
+<body>
+Hello, world!
+</body>
+</html>
       ;(function(a,t,o,m,s){a[m]=a[m]||[];a[m].push({t:new Date().getTime(),event:'snippetRun'});var f=t.getElementsByTagName(o)[0],e=t.createElement(o),d=m!=='paypalDDL'?'&m='+m:'';e.async=!0;e.src='https://www.sandbox.paypal.com/tagmanager/pptm.js?id='+s+d;f.parentNode.insertBefore(e,f);})(window,document,'script','paypalDDL','cd77f9c9-34e3-4fda-837c-a5b206576f2a');
     </script>
   <!-- PayPal END --></head>
@@ -150,14 +164,6 @@ jobs:
       </nav>
      </div>
     </div>
-    <div>
-     <!--[if lte IE 10]>
-				<div class="vx_globalNav-alertContainer vx_globalNav-alertWarning vx_hidden-phone">
-					<div class="vx_alert_inline vx_alert-warning">
-						<p class="vx_alert-text">You’re using an old version of Internet Explorer. Update it now to use all of your account features.</p>
-					</div>
-				</div>
-			<![endif]-->
     </div>
    </div>
   </div>
